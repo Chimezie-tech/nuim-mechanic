@@ -2,7 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
-  // history: createWebHashHistory(), // integrate for github to run as static pages
+  history: createWebHashHistory(), // integrate for github to run as static pages
   routes: [
     {
       path: '/',
