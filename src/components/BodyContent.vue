@@ -23,29 +23,35 @@
 </template>
 
 <script setup>
+import engine1 from "@/assets/engines.png";
+import engine2 from "@/assets/mariaEngine1.png";
+import engine3 from "@/assets/generators.png";
+import engine4 from "@/assets/bmw.png";
+
 const cards = [
   {
     title: "V6 Engines",
     text: "Top-tier industrial engines with the finest durability.",
-    image: "/src/assets/engines.png"
+    image: engine1
   },
   {
     title: "Turbo Engines",
     text: "Luxury designs for modern beauty spaces.",
-    image: "/src/assets/mariaEngine1.png"
+    image: engine2
   },
   {
     title: "Generator Engines",
     text: "Elegant interior setups for warm and cozy homes.",
-    image: "/src/assets/generators.png"
+    image: engine3
   },
   {
     title: "BMW Engines",
     text: "Custom wooden designs crafted for perfection.",
-    image: "/src/assets/bmw.png"
+    image: engine4
   }
 ];
 </script>
+
 
 <style scoped>
 /* Standard card height */

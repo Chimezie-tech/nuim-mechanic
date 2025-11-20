@@ -7,7 +7,7 @@ import NavContent from './NavContent.vue';
         <nav class="navbar navbar-expand-sm" aria-label="Third navbar example" style="background-color: #FEFAE0;">
             <div class="container-fluid">
 
-                <a class="navbar-brand" href="/">Nuim Mechanics</a>
+                <RouterLink class="navbar-brand" to="/">Nuim Mechanics</RouterLink>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarsExample03">
@@ -28,23 +28,6 @@ import NavContent from './NavContent.vue';
                         <li class="nav-item">
                             <RouterLink class="nav-link active" to="/contact">Contact</RouterLink>
                         </li>
-
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
-
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <RouterLink class="dropdown-item" to="/interior">Interior</RouterLink>
-                                </li>
-                                <li>
-                                    <RouterLink class="dropdown-item" to="/furniture">Furnitures</RouterLink>
-                                </li>
-                                <li>
-                                    <RouterLink class="dropdown-item" to="/other">Others</RouterLink>
-                                </li>
-                            </ul>
-                        </li> -->
-
                     </ul>
                 </div>
             </div>
