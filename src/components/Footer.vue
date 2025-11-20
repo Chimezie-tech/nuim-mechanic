@@ -1,11 +1,11 @@
 <template>
     <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="/product" class="nav-link px-2 text-body-secondary">Products</a></li>
-            <li class="nav-item"><a href="/about" class="nav-link px-2 text-body-secondary">About</a></li>
-            <li class="nav-item"><a href="/contact" class="nav-link px-2 text-body-secondary">Contact</a></li>
+            <li class="nav-item"><RouterLink to="/product" class="nav-link px-2 text-body-secondary" >Products</RouterLink></li>
+            <li class="nav-item"><RouterLink to="/about" class="nav-link px-2 text-body-secondary" >About</RouterLink></li>
+            <li class="nav-item"><RouterLink to="/contact" class="nav-link px-2 text-body-secondary" >Contact</RouterLink></li>
         </ul>
-        <p class="text-center text-body-secondary">© 2025 Company, Inc</p>
+        <p class="text-center text-body-secondary">© 2025 Nuimbase mechanics, Inc</p>
     </footer>
 </template>
 

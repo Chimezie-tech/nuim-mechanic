@@ -17,8 +17,7 @@
               We repair all types of automobiles, your satisfaction is our goal. Spend less to fix, diagonise and maintain your vehichle.
             </p>
 
-            <a href="/contact" class="btn" style="background-color: #0A400C; color: #FEFAE0;">Book an appointment</a>
-
+            <RouterLink class="btn btn-md" to="/contact" style="background-color: #0A400C; color: #FEFAE0;">Book an appointment</RouterLink>
           </div>
         </div>
       </div>

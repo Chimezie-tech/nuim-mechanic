@@ -14,9 +14,8 @@
         <div class="card-body d-flex flex-column">
           <h5 class="card-title" style="font-family: Poppins; font-size: 15px; font-weight: 600;">{{ card.title }}</h5>
           <p class="card-text flex-grow-1">{{ card.text }}</p>
-          <a href="/contact" class="btn mt-auto" style="background-color: #0A400C; color: #FEFAE0;">Contact us</a>
+          <RouterLink class="btn btn-md" to="/contact" style="background-color: #0A400C; color: #FEFAE0;">Contact us</RouterLink>
         </div>
-
       </div>
     </div>
 

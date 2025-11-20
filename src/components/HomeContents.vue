@@ -13,9 +13,7 @@
           Paragraph of text beneath the heading to explain the heading. We'll add
           onto it with another sentence and probably keep going until we run out of words.
         </p>
-        <a href="/contact" class="btn btn-md" style="background-color:#0A400C; color:#FEFAE0;">
-          Contact mechanic
-        </a>
+        <RouterLink class="btn btn-md" to="/contact" style="background-color: #0A400C; color: #FEFAE0;">Contact mechanic</RouterLink>
       </div>
 
       <!-- RIGHT FEATURES GRID -->

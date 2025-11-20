@@ -42,14 +42,7 @@
             <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> Full Vehicle Inspection</li>
             <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> Car Body & Paint Work</li>
           </ul>
-
-          <a
-            href="/contact"
-            class="btn btn-md mt-3"
-            style="background-color:#0A400C; color:#FEFAE0;"
-          >
-            Contact Mechanic
-          </a>
+          <RouterLink class="btn btn-md mt-3" to="/contact" style="background-color: #0A400C; color: #FEFAE0;">Contact mechanic</RouterLink>
         </div>
 
       </div>
